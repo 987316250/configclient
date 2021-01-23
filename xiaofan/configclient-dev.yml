@@ -1,1 +1,2 @@
-people.name=fanfan
+people:
+  name: fanfan
