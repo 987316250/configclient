@@ -1,2 +1,17 @@
 people:
-  name: 
+  name: fanfan
+  
+server:
+  port: 8764
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.37.173.179:3306/xiaofan?useSSL=true
+    username: root
+    password: Guren1999$
+    hikari:
+      auto-commit: true
